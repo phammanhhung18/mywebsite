@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+[class*="col-"]{
+    width: 100%;
+}
+/*Navbar*/
+.navbar ul{
+    list-style-type: none;
+    padding: 15px 0 15px;
+}
+.navbar ul li{
+    display: inline;
+    padding-right:50px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*for mobile fist*/
+@media screen and (max-width: 767px){
+    .navbar{
+        background-color: gray;
+    }
+    .navbar ul{text-align: center;}
+    .container{padding-left: 20px;}
+    #h1{font-family: 'Times New Roman', Times, serif; padding-right: 20px;}
+    #p1{font-family: sans-serif; font-size: 20px; padding-right: 20px;}
+    #banner{display: none;}
+    #hanoi{padding-left: 20px;}
+    #hue{padding-left: 20px;}
+    #danang{padding-left: 20px;}
+    #nhatrang{padding-left: 20px;}
+    #ps{padding-left: 20px;}
+    #footer{padding-left: 20px;}
+    #vmqtg{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 10px;
+    }
+    #shh{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 10px;
+    }
+    #adn{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 10px;
+    }
+    #ant{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 10px;
+    }
+    #footer{
+        background-color: lightgrey;
+        overflow: hidden;
+    }
+}
+/*for tablet*/
+@media screen and (min-width:768px) and (max-width: 991px){
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    .navbar{
+        background-color: gray;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+        margin: 0px 20px 0 20px;
+    }
+    #banner{
+        width: 100%;
+        height: auto;
+    }
+    .container{padding: 20px;}
+    #h1{font-family: 'Times New Roman', Times, serif; padding-right: 20px;}
+    #p1{font-family: sans-serif; font-size: 20px; padding-right: 20px;}
+    #hanoi{padding-left: 20px;}
+    #hue{padding-left: 20px;}
+    #danang{padding-left: 20px;}
+    #nhatrang{padding-left: 20px;}
+    #ps{padding-left: 20px;}
+    #footer{padding-left: 20px;}
+    #vmqtg{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 0;
+    }
+    #shh{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 0;
+    }
+    #adn{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 0;
+    }
+    #ant{
+        width: 100%;
+        height: auto;
+        padding: 5px 20px 5px 0;
+    }
+    #footer{
+        background-color: lightgrey;
+        overflow: hidden;
+    }
+}
+/*for desktop*/
+@media screen and (min-width:992px){
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    /*nav PC*/
+    .navbar{
+        background-color: rgb(170, 205, 219);
+    }
+    .navbar ul li a{
+        font-size: 20px;
+        color: black;
+        font-weight: bold;
+        margin-right: 20px;
+        padding-left: 20px;
+    }
+    #banner{
+        width: 100%;
+        height: auto;
+    }
+    #h1{font-family: 'Times New Roman', Times, serif; padding: 10px 20px 10px 20px; font-size: 30px;}
+    #p1{font-family: sans-serif; font-size: 20px; padding: 10px 20px 10px 20px;}
+    
+    #column1{
+        display: 50% 50%;
+        float: left;
+        padding: 0 90px 0 50px;
+    }
+    #column2{
+        display: 50% 50%;
+        float: left;
+        padding: 0 90px 0 20px;
+    }
+    #information{
+        display: 50% 50%;
+        float: left;
+        padding: 0 20px 0 20px;
+    }
+    #contact{
+        display: 50% 50%;
+        float: left;
+        padding: 0 20px 0 20px;
+    }
+    #vmqtg{
+        width: 100%;
+        height: 300px;
+        padding: 5px 20px 5px 0;
+    }
+    #shh{
+        width: 100%;
+        height: 300px;
+        padding: 5px 20px 5px 0;
+    }
+    #adn{
+        width: 100%;
+        height: 300px;
+        padding: 5px 20px 5px 0;
+    }
+    #ant{
+        width: 100%;
+        height: 300px;
+        padding: 5px 20px 5px 0;
+    }
+    #footer{
+        background-color: lightgrey;
+        overflow: hidden;
+        float: left;
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+}
